@@ -12,10 +12,10 @@
         />
 
         <q-toolbar-title>
-          Animalingo
+        <q-icon name="school" /> Animalingo
         </q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
+        <div>Grupo 1</div>
       </q-toolbar>
     </q-header>
 
@@ -51,18 +51,18 @@ import EssentialLink from 'components/EssentialLink.vue'
 
 const linksData = [
   {
-    title: 'Home',
+    title: 'Inicio',
     icon: 'home',
     link: '/'
   },
   {
-    title: 'Camera',
+    title: 'Tomar foto',
     icon: 'camera',
     link: '/camera'
   },
   {
-    title: 'Random',
-    icon: 'preview',
+    title: 'Animal aleatorio',
+    icon: 'visibility',
     link: '/random'
   }
 ]
